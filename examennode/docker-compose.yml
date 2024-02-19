@@ -25,7 +25,7 @@ services:
   mi-nginx:
     image: nginx
     ports:
-      - "8080:8080"
+      - "80:80"
     networks:
       node-nginx-net:
         ipv4_address: 172.80.0.11
